@@ -3,9 +3,9 @@
 /**
  * main - entry point
  *
- * description: print all aplhabet letters expect q and e
+ * Description: print all aplhabet letters expect q and e
  *
- * return: always 0 (success)
+ * Return: always 0 (success)
 */
 
 int main(void)
@@ -17,6 +17,7 @@ int main(void)
 		if (ch == 'e' || ch == 'q')
 			ch++;
 		putchar(ch);
+		ch++;
 	}
 	putchar('\n');
 
