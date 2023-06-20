@@ -16,9 +16,10 @@ int main(void)
 	while (digit <= 9)
 	{
 		/*convert digit to ASCLL reprasentaion*/
-		putchar(digit +'0');
+		putchar(digit + '0');
 		digit++;
 	}
-	printf("\n");
+	printf('\n');
+	
 	return (0);
 }
