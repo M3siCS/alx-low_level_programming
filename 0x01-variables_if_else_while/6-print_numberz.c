@@ -3,23 +3,25 @@
 /**
  * main -ntry point
  *
- * description: print 9-0 using putchar
+ * Description: print 9-0 using putchar
  *		while using int varible
  *
- * return: always 0 (success)
+ * Return: Always 0 (success)
 */
 
 int main(void)
 {
-	int digit = 0;
+	int i;
 
-	while (digit <= 9)
+	i = 48;
+
+	while (i < 58)
 	{
-		/*convert digit to ASCLL reprasentaion*/
-		putchar(digit + '0');
-		digit++;
+		putchar(i);
+		i++;
 	}
-	printf('\n');
-	
+
+	putchar(10);
+
 	return (0);
 }
