@@ -34,7 +34,7 @@ int main(void)
 		digit1++;
 	}
 
-	putcar('\n');
+	putchar('\n');
 
 	return (0);
 }
