@@ -29,9 +29,9 @@ int main(void)
 					putchar(' ');
 				}
 			}
-			digit2++
+			digit2++;
 		}
-		digit1++
+		digit1++;
 	}
 
 	putcar('\n');
