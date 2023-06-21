@@ -7,7 +7,8 @@
 */
 
 void print_times_taple(int n)
-{	int prod, mult, num;
+{	
+	int prod, mult, num;
 
 	if (n <= 15 && n >= 0)
 	{
