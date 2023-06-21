@@ -2,7 +2,7 @@
 
 /**
  * _abs - function that comuputes the absolute
- * 	value of an integer
+ *	value of an integer
  *
  * @n: tekes in integer type input forr function
  *
