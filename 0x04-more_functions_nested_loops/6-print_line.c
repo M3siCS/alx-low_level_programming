@@ -4,13 +4,13 @@
  * print_line - print a straight line
  *
  * @n: is the number of the of times the _ character
- * 	should be printed
+ *	should be printed
 */
 
 void print_line(int n)
 {
 	int lnChr;
-	
+
 	if (n <= 0)
 		_putchar('\n');
 	else
