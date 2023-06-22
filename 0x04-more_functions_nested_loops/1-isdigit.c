@@ -3,6 +3,8 @@
 /**
  * _isdigit - checks if input is digit between 0 - 9
  *
+ * Descripton: checks if input is digit between 0 - 9
+ *
  * @c: input
  *
  * Retun: 1 if is digit, 0 if not
