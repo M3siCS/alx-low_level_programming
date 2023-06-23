@@ -1,4 +1,3 @@
-
 #include "main.h"
 
 /**
@@ -18,7 +17,7 @@ void print_diagonal(int n)
 	int postn, space;
 
 	if (n <= 0)
-		_putchar('\n');
+		putchar('\n');
 	else
 	{
 		for (postn = 1; postn <= n; postn++)
