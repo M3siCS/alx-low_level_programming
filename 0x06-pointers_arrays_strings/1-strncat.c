@@ -25,8 +25,9 @@ char *_strncat(char *dest, char *src, int n)
 	 * if it contains n or more bytes
 	*/
 	for (i = 0; i < n && src[i] != '\0'; i++)
+		dest[c + i] = src[i];	
 	/*null termainate dest*/
-		dest[c + i] = '\0';
+	dest[c + i] = '\0';
 
 	return (dest);
 }
