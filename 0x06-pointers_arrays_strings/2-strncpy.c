@@ -13,6 +13,7 @@
 char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
+	i = 0;
 
 	/**
 	 * iterate through src arry
@@ -20,8 +21,9 @@ char *_strncpy(char *dest, char *src, int n)
 	 * among the first n bytes of source
 	 * the string plased in dest will not be null treminated
 	*/
-	for (i = 0; i < n && src[i] != '\0'; i++)
+	while (i < n && src[i] != '\0')
 		dest[i] = src[i];
+		i++;
 	/**
 	 * if the length of curce is less than n
 	 * write additional nullpytes to dest to
