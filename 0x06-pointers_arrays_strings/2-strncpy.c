@@ -22,8 +22,11 @@ char *_strncpy(char *dest, char *src, int n)
 	 * the string plased in dest will not be null treminated
 	*/
 	while (src[i] != '\0' && i < n)
+	{
 		dest[i] = src[i];
+	
 		i++;
+	}
 	/**
 	 * if the length of curce is less than n
 	 * write additional nullpytes to dest to
