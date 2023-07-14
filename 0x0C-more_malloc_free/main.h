@@ -12,5 +12,4 @@ int _atoi(const char *s);
 void print_int(unsigned long int n);
 
 
-
 #endif /* MAIN_H */
