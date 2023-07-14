@@ -1,6 +1,6 @@
 #include <stdlib.h>
 /**
- * malloc_checked - allocated memory using malloc and eixit if faild
+ * malloc_checked - allocated memory using malloc and exit if field
  *
  * @b: int
  *
