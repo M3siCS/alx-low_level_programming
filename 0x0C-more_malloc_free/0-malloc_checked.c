@@ -11,7 +11,10 @@ void *malloc_checked(unsigned int b)
 	void *m = malloc(b);
 
 	if (m == NULL)
-		return NULL;
+
+		return (NULL);
+
+
 	return (m);
 
 }
