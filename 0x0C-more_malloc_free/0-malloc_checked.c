@@ -1,16 +1,16 @@
 #include <stdlib.h>
 /**
- * malloc_checked - cause normal process termination with a status value of 98
+ * malloc_checked - allocated memory using malloc and eixit if faild
  *
- * @b: allocated memory
+ * @b: int
  *
- * Return: a pointer to the allocated memory
+ * Return: pointer to the array initialized or NULL
  */
 void *malloc_checked(unsigned int b)
 {
-	void *m = malloc(b);
+	int *m = malloc(b);
 
-	if (m == NULL)
+	if (m == 0)
 
 		exit(98);
 
