@@ -28,11 +28,13 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	concatenated = malloc(sizeof(char) * (len1 + n + 1));
 
 	if (concatenated == NULL)
+	{
 		return (NULL);
+	}
 
 	strncpy(concatenated, s1, len1);
 	strncat(concatenated, s2, n);
-	concatenated[len1 + n] = '\0';
+	concatenated[len1 + n] = ('\0');
 
 	return (concatenated);
 }
