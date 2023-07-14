@@ -1,6 +1,4 @@
-#include "main.h"
 #include <stdlib.h>
-#include <stdio.h>
 /**
  * malloc_checked - cause normal process termination with a status value of 98
  *
