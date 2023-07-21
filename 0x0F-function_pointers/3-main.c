@@ -11,7 +11,7 @@ int main(int argc, char **argv)
 {
 	int (*op_func)(int, int), a, b;
 
-	if (argc != 4)	
+	if (argc != 4)
 		printf("Error\n"), exit(98);
 
 	a = atoi(argv[1]);
@@ -22,7 +22,7 @@ int main(int argc, char **argv)
 		printf("Error\n"), exit(99);
 
 	if (!b && (argv[2][0] == '/' || argv[2][0] == '%'))
-		printf("Error\n"), exit (100);
+		printf("Error\n"), exit(100);
 
 	printf("%d\n", op_func(a, b));
 	return (0);
