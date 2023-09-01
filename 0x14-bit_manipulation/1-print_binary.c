@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * print_binary - Print the binary representation of a number.
  * @n: The parameter.
 */

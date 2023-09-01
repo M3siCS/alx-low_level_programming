@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * get_bit - Retrieve the value of a bit at a specified index.
  * @n: Decimal parameter.
  * @index: index at which to check bit
