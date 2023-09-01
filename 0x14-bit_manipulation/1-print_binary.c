@@ -1,9 +1,10 @@
 #include "main.h"
 
 /*
- * print_binary - Display the binary representation of a number.
- * @n: The parameter representing the number.
+ * print_binary - Print the binary representation of a number.
+ * @n: The parameter.
 */
+
 void print_binary(unsigned long int n)
 {
 	int i, count = 0;
